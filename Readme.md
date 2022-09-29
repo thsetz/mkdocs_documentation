@@ -10,4 +10,3 @@ AWS Pipeline based on:
 
 
 Available on: https://thsetz.github.io/mkdocs_documentation/
-

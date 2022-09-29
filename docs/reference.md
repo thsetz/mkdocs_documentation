@@ -4,4 +4,3 @@ reference for the technical implementation of the
 `project` project code.
 
 ::: project.proj
-

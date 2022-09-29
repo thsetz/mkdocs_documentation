@@ -568,14 +568,14 @@ skinparam person<<external_container>> {
 
 
 
-rectangle "<$person>\n==Enduser\n\n Enduser uses My System" <<person>> as personAlias 
+rectangle "<$person>\n==Enduser\n\n Enduser uses My System" <<person>> as personAlias
 rectangle "==My System Boundary\n<size:12>[System]</size>" <<boundary>> as ms  {
-rectangle "==My System\n//<size:12>[Node, Angular]</size>//\n\n Does really cool things" <<container>> as mysystem 
+rectangle "==My System\n//<size:12>[Node, Angular]</size>//\n\n Does really cool things" <<container>> as mysystem
 }
-rectangle "==Ext System 1\n\n Does things" <<external_system>> as sys_ext1 
-rectangle "==Ext System 2\n\n Does things" <<external_system>> as sys_ext2 
-rectangle "==Ext System 3\n\n Does things" <<external_system>> as sys_ext3 
-rectangle "==Ext System 4\n\n Does things" <<external_system>> as sys_ext4 
+rectangle "==Ext System 1\n\n Does things" <<external_system>> as sys_ext1
+rectangle "==Ext System 2\n\n Does things" <<external_system>> as sys_ext2
+rectangle "==Ext System 3\n\n Does things" <<external_system>> as sys_ext3
+rectangle "==Ext System 4\n\n Does things" <<external_system>> as sys_ext4
 
 personAlias - ->> mysystem : **via App or Web**\n//<size:12>[REST over HTTPS]</size>//
 mysystem - ->> sys_ext1 : **Communicates**\n//<size:12>[REST]</size>//

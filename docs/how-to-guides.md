@@ -38,5 +38,3 @@ to add any two numbers that you need to add:
 
 You're now able to add any two numbers, and you'll
 always get a `float` as a result.
-
-

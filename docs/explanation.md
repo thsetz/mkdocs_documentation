@@ -16,7 +16,6 @@ as well as reasoning about how it was implemented.
 
 ##Component
 ![file](diagrams/out/context_goals.svg)
- 
+
 ## Sequence
 ![file](diagrams/out/sequence.svg)
-

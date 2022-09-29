@@ -5,7 +5,7 @@
 This module allows the user to make mathematical calculations.
 
 Examples:
-    >>> from project import proj 
+    >>> from project import proj
     >>> proj.add(2, 4)
     6.0
     >>> proj.multiply(2.0, 4.0)
@@ -23,6 +23,7 @@ The module contains the following functions:
 """
 
 from typing import Union
+
 
 def add(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the sum of two numbers.
@@ -46,8 +47,10 @@ def add(a: Union[float, int], b: Union[float, int]) -> float:
 def subtract(a, b):
     return float(a - b)
 
+
 def multiply(a, b):
     return float(a * b)
+
 
 def divide(a, b):
     if b == 0:
