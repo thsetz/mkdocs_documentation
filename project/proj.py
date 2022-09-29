@@ -1,6 +1,7 @@
 # project/proj.py
 
 """Provide several sample math calculations.
+a delta
 
 This module allows the user to make mathematical calculations.
 
