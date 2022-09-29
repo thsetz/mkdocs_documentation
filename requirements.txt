@@ -4,3 +4,6 @@ mkdocs-material
 mkdocs-build-plantuml-plugin
 black
 pre-commit
+mypy
+pytest
+pytest-cov

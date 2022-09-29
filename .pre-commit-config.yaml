@@ -6,6 +6,9 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+    -   id: debug-statements         # check for python debug statements (import pdb, breakpoint, etc.)
+    -   id: detect-private-key       # checks for private keys (BEGIN X PRIVATE KEY, etc.)
+
 -   repo: https://github.com/psf/black
     rev: 22.8.0
     hooks:

@@ -11,3 +11,7 @@ gh-deploy:
 
 pre-commit:
 	source .venv/bin/activate; pre-commit run --all-files
+
+test:
+	#source .venv/bin/activate; pytest tests/*
+	source .venv/bin/activate; pytest --cov-report html --cov=project
