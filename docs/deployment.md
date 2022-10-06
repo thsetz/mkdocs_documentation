@@ -47,9 +47,7 @@ foo@bar:~$ open htmlcov/index.html
 
 flake8, black, mypy added as precommmit hooks
 
-``` title=".pre-commit-config.yaml"
---8<-- "../.pre-commit-config.yaml"
-```
+in  ".pre-commit-config.yaml"
 
 ### Secrets detection
 
